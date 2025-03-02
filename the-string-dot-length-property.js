@@ -25,6 +25,12 @@ let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
+lengthOne = stringOne.length;
+lengthTwo = stringTwo.length;
+lengthThree = stringThree.length;
 
+console.log(`expecting 15, got: ${lengthOne}
+expecting 10, got: ${lengthTwo}
+expecting 0, got: ${lengthThree}`);
 
 
